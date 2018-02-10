@@ -1,0 +1,108 @@
+body {
+    padding-top: 5rem;
+    background-color: #ecede8;
+}
+
+.navbar-brand {
+    color: #9b9b9b;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.navbar-brand:hover {
+    color: #9b9b9b;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+.issues {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+p {
+    color: #9b9b9b;
+    font-size: 28px;
+    margin-left: -20px;
+    font-weight: 200;
+}
+
+canvas {
+    font-weight: 300 !important;
+}
+
+.issues span {
+    position: absolute;
+    color: white;
+    transform: rotate(-45deg);
+    top: 4px;
+    left: 14px;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+#openIssue {
+    background-color: #fc808e;
+}
+
+#wipIssue {
+    background-color: #779ec9;
+}
+
+#resolvedIssue {
+    background-color: #75bab9;
+}
+
+.chart-js-wrapper {
+    width: 50% !important;
+}
+
+.pagination {
+    margin-top: 30px;
+}
+
+.pagination span {
+    border: 1px solid #fc808e;
+    transform: rotate(90deg);
+    height: 18px;
+    position: relative;
+    top: 16px;
+}
+
+.page-item {
+    border-radius: 5px;
+}
+
+.page-item:first-child .page-link {
+    border-radius: 5px;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 5px;
+}
+
+.page-item.active .page-link {
+    background-color: #fc808e;
+    border-color: #fc808e;
+}
+
+.page-link {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+    transform: rotate(45deg);
+    border-color: #fc808e;
+    border: 2px solid #fc808e;
+    background-color: #ecede8;
+}
+
+.page-link:hover {
+    border-color: #fc808e;
+}
